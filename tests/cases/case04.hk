@@ -1,0 +1,15 @@
+def print_rev_digits(n) {
+    if n < 0 {
+        n = -n
+    }
+
+    while n > 0 {
+        a = n
+        n = n / 10
+        echo(a - n*10)
+    }
+}
+
+def main() {
+    print_rev_digits(input())
+}

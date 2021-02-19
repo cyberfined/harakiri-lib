@@ -1,0 +1,15 @@
+def main() {
+    a = input() || input() / 10
+    b = a && input() - 25
+    m = 10
+    c = 0
+    while m >= 0 {
+        n = 5
+        while n < 10 {
+            c = c + m*a + n*b
+            n = n + 1
+        }
+        m = m - 1
+    }
+    echo(c)
+}

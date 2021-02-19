@@ -1,0 +1,27 @@
+def geom(b, q, n) {
+    res = 0
+    p = 1
+    while n >= 0 {
+        res = res + b*p
+        p = p * q
+        n = n - 1
+    }
+    return res
+}
+
+def arith(a, d, n) {
+    res = 0
+    while n >= 0 {
+        res = res + a + d*n
+        n = n - 1
+    }
+    return res
+}
+
+def main() {
+    n = 10
+    a = input()
+    b = input()
+    c = geom(arith(a,b,n-5), a, 2) * (geom(geom(a, 2, 6), b, n) && arith(b, a, n)*a - 11)
+    echo(c)
+}

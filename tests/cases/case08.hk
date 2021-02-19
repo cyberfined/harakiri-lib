@@ -1,0 +1,378 @@
+def main() {
+a = input()
+if a == 33 {
+echo("!")
+} else {
+if a == 34 {
+echo("dquote")
+} else {
+if a == 35 {
+echo("#")
+} else {
+if a == 36 {
+echo("$")
+} else {
+if a == 37 {
+echo("%")
+} else {
+if a == 38 {
+echo("&")
+} else {
+if a == 39 {
+echo("'")
+} else {
+if a == 40 {
+echo("(")
+} else {
+if a == 41 {
+echo(")")
+} else {
+if a == 42 {
+echo("*")
+} else {
+if a == 43 {
+echo("+")
+} else {
+if a == 44 {
+echo(",")
+} else {
+if a == 45 {
+echo("-")
+} else {
+if a == 46 {
+echo(".")
+} else {
+if a == 47 {
+echo("/")
+} else {
+if a == 48 {
+echo("0")
+} else {
+if a == 49 {
+echo("1")
+} else {
+if a == 50 {
+echo("2")
+} else {
+if a == 51 {
+echo("3")
+} else {
+if a == 52 {
+echo("4")
+} else {
+if a == 53 {
+echo("5")
+} else {
+if a == 54 {
+echo("6")
+} else {
+if a == 55 {
+echo("7")
+} else {
+if a == 56 {
+echo("8")
+} else {
+if a == 57 {
+echo("9")
+} else {
+if a == 58 {
+echo(":")
+} else {
+if a == 59 {
+echo(";")
+} else {
+if a == 60 {
+echo("<")
+} else {
+if a == 61 {
+echo("=")
+} else {
+if a == 62 {
+echo(">")
+} else {
+if a == 63 {
+echo("?")
+} else {
+if a == 64 {
+echo("@")
+} else {
+if a == 65 {
+echo("A")
+} else {
+if a == 66 {
+echo("B")
+} else {
+if a == 67 {
+echo("C")
+} else {
+if a == 68 {
+echo("D")
+} else {
+if a == 69 {
+echo("E")
+} else {
+if a == 70 {
+echo("F")
+} else {
+if a == 71 {
+echo("G")
+} else {
+if a == 72 {
+echo("H")
+} else {
+if a == 73 {
+echo("I")
+} else {
+if a == 74 {
+echo("J")
+} else {
+if a == 75 {
+echo("K")
+} else {
+if a == 76 {
+echo("L")
+} else {
+if a == 77 {
+echo("M")
+} else {
+if a == 78 {
+echo("N")
+} else {
+if a == 79 {
+echo("O")
+} else {
+if a == 80 {
+echo("P")
+} else {
+if a == 81 {
+echo("Q")
+} else {
+if a == 82 {
+echo("R")
+} else {
+if a == 83 {
+echo("S")
+} else {
+if a == 84 {
+echo("T")
+} else {
+if a == 85 {
+echo("U")
+} else {
+if a == 86 {
+echo("V")
+} else {
+if a == 87 {
+echo("W")
+} else {
+if a == 88 {
+echo("X")
+} else {
+if a == 89 {
+echo("Y")
+} else {
+if a == 90 {
+echo("Z")
+} else {
+if a == 91 {
+echo("[")
+} else {
+if a == 92 {
+echo("bslash")
+} else {
+if a == 93 {
+echo("]")
+} else {
+if a == 94 {
+echo("^")
+} else {
+if a == 95 {
+echo("_")
+} else {
+if a == 96 {
+echo("`")
+} else {
+if a == 97 {
+echo("a")
+} else {
+if a == 98 {
+echo("b")
+} else {
+if a == 99 {
+echo("c")
+} else {
+if a == 100 {
+echo("d")
+} else {
+if a == 101 {
+echo("e")
+} else {
+if a == 102 {
+echo("f")
+} else {
+if a == 103 {
+echo("g")
+} else {
+if a == 104 {
+echo("h")
+} else {
+if a == 105 {
+echo("i")
+} else {
+if a == 106 {
+echo("j")
+} else {
+if a == 107 {
+echo("k")
+} else {
+if a == 108 {
+echo("l")
+} else {
+if a == 109 {
+echo("m")
+} else {
+if a == 110 {
+echo("n")
+} else {
+if a == 111 {
+echo("o")
+} else {
+if a == 112 {
+echo("p")
+} else {
+if a == 113 {
+echo("q")
+} else {
+if a == 114 {
+echo("r")
+} else {
+if a == 115 {
+echo("s")
+} else {
+if a == 116 {
+echo("t")
+} else {
+if a == 117 {
+echo("u")
+} else {
+if a == 118 {
+echo("v")
+} else {
+if a == 119 {
+echo("w")
+} else {
+if a == 120 {
+echo("x")
+} else {
+if a == 121 {
+echo("y")
+} else {
+if a == 122 {
+echo("z")
+} else {
+if a == 123 {
+echo("{")
+} else {
+if a == 124 {
+echo("vline")
+} else {
+if a == 125 {
+echo("}")
+} else {
+if a == 126 {
+echo("~")
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}

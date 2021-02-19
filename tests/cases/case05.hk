@@ -1,0 +1,53 @@
+def getOrder(n) {
+    if n < 0 {
+        n = -n
+    }
+
+    order = 0
+    while 1 {
+        n = n / 10
+        if n == 0 {
+            break
+        }
+        order = order + 1
+    }
+
+    return order
+}
+
+def pow(n, m) {
+    if m < 0 {
+        return 0
+    }
+
+    res = 1
+    while m > 0 {
+        res = res * n
+        m = m - 1
+    }
+    return res
+}
+
+def reverseNumber(n) {
+    is_neg = 1
+    if n < 0 {
+        n = -n
+        is_neg = -1
+    }
+
+    order = pow(10, getOrder(n))
+    res = 0
+    while n > 0 {
+        digit = n
+        n = n / 10
+        digit = digit - n*10
+        res = res + digit * order
+        order = order / 10
+    }
+
+    return res * is_neg
+}
+
+def main() {
+    echo(reverseNumber(input()))
+}

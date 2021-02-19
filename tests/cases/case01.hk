@@ -1,0 +1,17 @@
+def main() {
+    isFirst = 1
+    while 1 {
+        if isFirst {
+            echo("Please, enter zero\n")
+            isFirst = 0
+        } else {
+            echo("Enter the fucking zero, bitch\n")
+        }
+
+        n = input()
+        if n == 0 {
+            return
+        }
+    }
+    echo("what the fuck!\n")
+}

@@ -1,0 +1,14 @@
+def fib(n) {
+    a = 1
+    b = 1
+    while n > 2 {
+        a = a + b
+        b = a - b
+        n = n - 1
+    }
+    return a
+}
+
+def main() {
+    echo(fib(input()))
+}
